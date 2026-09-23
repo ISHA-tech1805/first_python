@@ -1,6 +1,10 @@
 def remove_last(lst):
     lst.pop()
-list1=[1,2,3,4]
-print("before elimination:", list1)
-remove_last(list1)
-print("after elimination:", list1)    
+l=[]
+n=int(input("enter number of elements"))
+for i in range(n):
+    item=int(input("enter element:"))
+    l.append(item)
+print("before elimination:", l)
+remove_last(l)
+print("after elimination:", l)    
